@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Create a new Discord session
-	dg, err := discordgo.New("Bot MTE5NzA4ODIwMjI5MzUxNDI5Mg.GMnCYz.jkdSPZzSQ7gcmK-EIOVx-0r5TL7q51WVyG4kFQ")
+	dg, err := discordgo.New("Bot ")
 	if err != nil {
 		fmt.Println("Error creating Discord session:", err)
 		return
